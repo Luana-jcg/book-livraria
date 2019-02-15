@@ -16,8 +16,14 @@ body{
 #menu{
     text-align: center; /* Centralizar elementos em linha (menu de navegação)*/
     background-color: #222;
+    height: 40px; /* definir a altura */ 
 }
 
 #menu a{
     color: #fff;
+    text-decoration: none; /* tirar qualquer decoração */
+    line-height: 40px; /* para centralizar verticalmente um elemento */
 }
+
+/* dever de casa :
+afastar menu e colocar hover */
