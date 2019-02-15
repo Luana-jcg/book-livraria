@@ -1,4 +1,23 @@
+body{
+    margin: 0; /* Tirar a margem que já vem no body */
+    font-family: 'tahoma ms'; /* fonte da letra */
+    color: #666; /* mudar a cor da letra */
+}
+
 #total {
-    width: 1000px;
-    margin: 0 auto;
+    width: 1000px; /* definir o tamanho total da div */
+    margin: 0 auto; /* centralizar a div */
+}
+
+#logo {
+    text-align: center; /* Centralizar elementos em linha (imagens)*/
+}
+
+#menu{
+    text-align: center; /* Centralizar elementos em linha (menu de navegação)*/
+    background-color: #222;
+}
+
+#menu a{
+    color: #fff;
 }
