@@ -23,7 +23,10 @@ body{
     color: #fff;
     text-decoration: none; /* tirar qualquer decoração */
     line-height: 40px; /* para centralizar verticalmente um elemento */
+    margin-right: 40px;
 }
 
-/* dever de casa :
-afastar menu e colocar hover */
+#menu a:hover{
+    text-decoration: underline; /* colocar sublinhado ao passar o mouse por cima do elemento*/
+    
+}
