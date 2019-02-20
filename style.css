@@ -22,7 +22,7 @@ body{
 #menu a{
     color: #fff;
     text-decoration: none; /* tirar qualquer decoração */
-    line-height: 40px; /* para centralizar verticalmente um elemento */
+    line-height: 40px; /* para centralizar verticalmente um elemento (colocar do mesmo tamanho da div que a qual ele pertence) */
     margin-right: 40px;
 }
 
