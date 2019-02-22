@@ -1,6 +1,6 @@
 body{
     margin: 0; /* Tirar a margem que já vem no body */
-    font-family: 'tahoma ms'; /* fonte da letra */
+    font-family: tahoma; /* fonte da letra */
     color: #666; /* mudar a cor da letra */
 }
 
@@ -11,6 +11,7 @@ body{
 
 #logo {
     text-align: center; /* Centralizar elementos em linha (imagens)*/
+    margin: 30px 0px;
 }
 
 #menu{
@@ -23,10 +24,17 @@ body{
     color: #fff;
     text-decoration: none; /* tirar qualquer decoração */
     line-height: 40px; /* para centralizar verticalmente um elemento (colocar do mesmo tamanho da div que a qual ele pertence) */
-    margin-right: 40px;
+    margin: 0px 35px;
 }
 
 #menu a:hover{
-    text-decoration: underline; /* colocar sublinhado ao passar o mouse por cima do elemento*/
-    
+    text-decoration: underline;
+}
+
+#banner{
+    margin-top: 2px;
+}
+
+#banner img{
+    width: 100%; /* aumentar a
 }
