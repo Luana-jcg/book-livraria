@@ -36,5 +36,32 @@ body{
 }
 
 #banner img{
-    width: 100%; /* aumentar a
+    width: 100%; /* aumentar a largura da imagem */
 }
+
+#principal{
+    width: 60%;
+    color: #666;
+}
+
+#secundario{
+    width: 35%;
+}
+
+#secundario p{
+    font-style: italic;
+    color: #999;
+}
+
+#principal, #secundario {
+    font-size: 16px;
+}
+
+h1,h2{
+    margin: 0px;
+    font-size: 20px;
+    color: #333;
+}
+
+.left { float: left }
+.right { float: right }
