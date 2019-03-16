@@ -5,7 +5,8 @@ body{
 }
 
 #total {
-    width: 1000px; /* definir o tamanho total da div */
+    width: 95%; /* definir o tamanho total da div */
+    max-width: 1000px; /* até quanto o site pode expandir */
     margin: 0 auto; /* centralizar a div */
 }
 
@@ -23,7 +24,7 @@ body{
 #menu a{
     color: #fff;
     text-decoration: none; /* tirar qualquer decoração */
-    line-height: 40px; /* para centralizar verticalmente um elemento (colocar do mesmo tamanho da div que a qual ele pertence) */
+    line-height: 40px; /* para centralizar verticalmente um elemento (colocar do mesmo tamanho da div que ele pertence) */
     margin: 0px 35px;
 }
 
@@ -83,3 +84,12 @@ footer{
 
 .left { float: left }
 .right { float: right }
+
+/* Versão responsiva */
+
+@media screen and (min-width: 640px) and (max-width: 785px){ /* 768 */
+    #menu a{
+        font-size: 14px;
+        margin: 0 25px;
+    }
+}
