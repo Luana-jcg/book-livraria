@@ -33,8 +33,8 @@ body{
 }
 
 #banner{
-    margin-top: 2px;
-    padding-bottom: 30px;
+    margin-top: 2px; /* Espaçamento superior, fora do elemento */
+    padding-bottom: 30px; /* Espaçamento inferior, dentro do elemento */
 }
 
 #banner img{
@@ -74,8 +74,8 @@ p{
 }
 
 footer{
-    clear: both;
-    text-align: center;
+    clear: both; /* limpar flutuação (ambos)*/
+    text-align: center; /* centralizar texto */
     width: 1000px;
     font-size: 12px;
     padding: 30px;
