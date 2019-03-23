@@ -108,3 +108,18 @@ footer{
         display: block; /* mostrar a div quando estiver dentro do intervalo de 640px a 785px */
     }
 }
+
+@media screen and (max-width: 639px){
+    #menu{
+        height: auto; /* tirar a altura de 40px que tinha antes*/ 
+    }
+    
+    #menu a{
+        display: block;
+        border-bottom: #fff 1px solid;
+    }
+    
+    #menu a:last-child{
+        border-bottom: none;
+    }
+}
