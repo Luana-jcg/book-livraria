@@ -111,7 +111,7 @@ footer{
 
 @media screen and (max-width: 639px){
     #menu{
-        height: auto; /* tirar a altura de 40px que tinha antes*/ 
+        height: auto; /* tirar a altura de 40px que tinha antes */ 
     }
     
     #menu a{
@@ -121,5 +121,13 @@ footer{
     
     #menu a:last-child{
         border-bottom: none;
+    }
+    
+    #principal, #secundario{
+        width: 100%;
+    }
+    
+    footer{
+        width: 100%;
     }
 }
