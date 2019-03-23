@@ -18,7 +18,7 @@ body{
 #menu{
     text-align: center; /* Centralizar elementos em linha (menu de navegação)*/
     background-color: #222;
-    height: 40px; /* definir a altura */ 
+    height: 40px; /* definir a altura */
 }
 
 #menu a{
@@ -79,9 +79,6 @@ h2{
     font-size: 18px;
 }
 
-p{
-    margin-bottom: 0px;
-}
 
 footer{
     clear: both; /* limpar flutuação (ambos)*/
@@ -107,6 +104,10 @@ footer{
     #anuncio{
         display: block; /* mostrar a div quando estiver dentro do intervalo de 640px a 785px */
     }
+    
+    footer{
+        width: 100%;
+    }
 }
 
 @media screen and (max-width: 639px){
@@ -129,5 +130,11 @@ footer{
     
     footer{
         width: 100%;
+    }
+}
+
+@media screen and (max-width: 375px){
+    #banner{
+        display: none;
     }
 }
